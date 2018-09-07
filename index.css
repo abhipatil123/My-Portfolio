@@ -1,10 +1,13 @@
-
+div:target {
+	padding-top: 65px; 
+	margin-top: -65px;
+}
 
 .footer{
     bottom: 0;
     left: 0;
 	position: fixed;
-	background-color: #182D09;
+	background-color: rgb(78, 77, 76);
 	width: 100%;
 	text-align: center;	
 	color: #5B982F;
@@ -12,17 +15,18 @@
 }
 
 #vnav1{
-	background-color: #CFEABC;
+	background-color: rgb(209, 208, 209);
 	min-height: 100%;
     position: fixed;
     padding: 0;
 	box-sizing: content-box;
 	margin-top: 51px;
+	float: left;
 	
 }
 
 #vnav3{
-	background-color: #CFEABC;
+	background-color: rgb(209, 208, 209);
 	min-height: 100%;
 	position: fixed;
 	padding: 0;
@@ -34,7 +38,7 @@
 #vnav2{
 	margin-left: 16%;
 	margin-right: 16%;
-	padding-top: 20px;
+	/* padding-top: 40px; */
 	margin-top: 51px;
 	margin-bottom: 60px;
 }
@@ -48,11 +52,12 @@ img{
 	width: 185px;
 	margin: 20px;
 	margin-right: 10px;
+	margin-top: 0px;
 	float: left;
 }
 
 .navbar{
-	background-color: rgb(6, 14, 1);
+	background-color: rgb(2, 3, 15);
 	color: #182D09;
 }
 a.nav-link{
